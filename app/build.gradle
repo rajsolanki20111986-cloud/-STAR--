@@ -51,12 +51,8 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1'
     
-    // Lifecycle & LiveData
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.4'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4'
-    
     // Gemini API
-    implementation 'com.google.ai.client.generativeai:google-generativeai:0.9.0'
+    implementation 'com.google.ai.client.generativeai:generativeai:0.9.0'
     
     // OkHttp
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'
