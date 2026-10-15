@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="#2196F3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="#FFFFFF"
+            android:background="?attr/selectableItemBackground" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="STAR Chat"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextSwitcher
+            android:id="@+id/chatDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="#F5F5F5">
+
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Type message..."
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/micButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/ic_btn_speak_now"
+                android:contentDescription="Mic"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/speakerButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="Speaker"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/copyButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:contentDescription="Copy"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Send"
+                android:textColor="#FFFFFF"
+                android:background="#2196F3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
