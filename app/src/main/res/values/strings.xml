@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">STAR</string>
+    <string name="app_title">STAR - Your AI Assistant</string>
+    <string name="voice_button">Press to speak</string>
+    <string name="chat_button">Chat Mode</string>
+    <string name="settings_button">Settings</string>
+    <string name="send_button">Send</string>
+    <string name="back_button">Back</string>
+    <string name="api_key_hint">Paste your Gemini API key</string>
+    <string name="api_key_label">Gemini API Key</string>
+    <string name="voice_control_label">Voice Control</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="clear_all">Clear All</string>
+    <string name="message_hint">Type message...</string>
+    <string name="settings_saved">Settings saved!</string>
+    <string name="api_key_required">Please set API key in settings</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="error_occurred">Something went wrong</string>
+</resources>
