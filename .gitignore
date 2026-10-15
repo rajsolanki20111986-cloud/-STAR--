@@ -1,0 +1,32 @@
+# Gradle files
+.gradle
+/build/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Local configuration file
+local.properties
+
+# Generated files
+bin/
+gen/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Android Studio
+.android/
+
+# Kotlin
+*.kt.bak
+
+# Build
+build/
